@@ -1,4 +1,4 @@
-🏆 Sports Player Management Queue using Linked List
+ 🏆 Sports Player Management Queue using Linked List
 
 📌 Project Description
 
@@ -56,31 +56,6 @@ Removes the player from the front of the queue.
 
 Displays all players currently present in the queue.
 
-📂 Project Structure
-
-Sports-Player-Management-Queue/
-│
-├── main.cpp
-└── README.md
-
-▶️ How to Run
-
-Step 1: Clone the Repository
-
-git clone https://github.com/your-username/Sports-Player-Management-Queue.git
-
-Step 2: Open the Project
-
-Open the project in any C++ IDE such as:
-
-- Visual Studio Code
-- Code::Blocks
-- Dev-C++
-- Online C++ Compiler
-
-Step 3: Compile and Run
-
-Compile "main.cpp" and run the program.
 
 💻 Sample Menu
 
@@ -118,3 +93,5 @@ The project can be enhanced by adding:
 - Player performance records
 - Sorting players based on performance
 - Graphical User Interface (GUI)
+
+
