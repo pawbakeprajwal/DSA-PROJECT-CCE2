@@ -1,97 +1,62 @@
- 🏆 Sports Player Management Queue using Linked List
 
-📌 Project Description
 
-Sports Player Management Queue is a C++ project that implements a Queue data structure using a Linked List.
 
-The project is designed to manage sports players using the FIFO (First In, First Out) principle. Players can be added, removed, and displayed through a simple menu-driven program.
 
-🎯 Objectives
 
-- To understand the concept of Queue.
-- To implement Queue using Linked List.
-- To perform Enqueue and Dequeue operations.
-- To store and manage player information.
-- To understand dynamic memory allocation in C++.
+Sports Player Management Queue using Linked List
 
-🛠️ Technologies Used
+Project Description
+
+This is a C++ project that implements a Queue using a Linked List to manage sports players. It follows the FIFO (First In, First Out) principle.
+
+Objectives
+
+- Understand the Queue data structure.
+- Implement Queue using a Linked List.
+- Perform Enqueue and Dequeue operations.
+- Store and manage player details.
+
+Technologies Used
 
 - Programming Language: C++
-- Data Structure: Linked List
-- Data Structure Concept: Queue
+- Data Structure: Queue and Linked List
 - Compiler: Any standard C++ compiler
 
-⚙️ Features
+Features
 
-- ➕ Add a new player
-- ➖ Remove a player from the queue
-- 📋 Display all players
-- 🆔 Store Player ID
-- 👤 Store Player Name
-- 🏅 Store Sport Name
-- ⚠️ Handle empty queue condition
-- 🚪 Exit the program
+- Add a new player.
+- Remove a player from the queue.
+- Display all players.
+- Store Player ID, Name, and Sport Name.
+- Handle an empty queue.
 
-🔄 Queue Concept
+Queue Concept
 
-The project follows the FIFO (First In, First Out) principle.
+Queue follows the FIFO (First In, First Out) principle.
 
-The player who enters the queue first will be removed first.
+FRONT                         REAR
 
-FRONT                                      REAR
-  ↓                                          ↓
-[Player 1] → [Player 2] → [Player 3] → NULL
+[Player 1] -> [Player 2] -> [Player 3] -> NULL
 
-📚 Operations
+Operations
 
-1. Enqueue
+1. Enqueue: Adds a player at the rear.
+2. Dequeue: Removes a player from the front.
+3. Display: Shows all players in the queue.
 
-Adds a new player at the rear of the queue.
+Time Complexity
 
-2. Dequeue
+- Enqueue: O(1)
+- Dequeue: O(1)
+- Display: O(n)
 
-Removes the player from the front of the queue.
+Future Improvements
 
-3. Display
+- Search and update player details.
+- Save records using file handling.
+- Add player performance tracking.
+- Develop a graphical user interface (GUI).
 
-Displays all players currently present in the queue.
+Conclusion
 
-
-💻 Sample Menu
-
-===== Sports Player Management =====
-1. Add Player
-2. Remove Player
-3. Display Players
-4. Exit
-
-Enter your choice:
-
-📊 Example Player Details
-
-Player ID   : 101
-Player Name : Virat Kohli
-Sport Name  : Cricket
-
-🌟 Applications
-
-This project can be used for:
-
-- Sports team management
-- Player registration
-- Tournament management
-- Player selection systems
-- Sports event scheduling
-
-🚀 Future Improvements
-
-The project can be enhanced by adding:
-
-- Player search functionality
-- Player update and delete options
-- File handling for permanent data storage
-- Player performance records
-- Sorting players based on performance
-- Graphical User Interface (GUI)
-
-
+This project helps understand Queue operations, Linked Lists, and dynamic memory allocation in C++ through a simple sports player management system.
