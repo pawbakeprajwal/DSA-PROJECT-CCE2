@@ -1,97 +1,82 @@
-Stadium Seating Navigation Using Binary Tree
+Stadium Seating Navigation Application Using a Binary Tree (Zigzag / Spiral Level Order Traversal)
 
-Project Overview
+Project Description
 
-The Stadium Seating Navigation application is a console-based C++ project that represents stadium seating blocks using a binary tree. It displays seating blocks in Zigzag (Spiral) Level Order Traversal and allows users to search for a specific seating block.
+This is a C++ project that implements a Stadium Seating Navigation Application using a Binary Tree. It organizes stadium seating blocks in a tree structure and displays them in Zigzag (Spiral) Level Order Traversal.
 
-Features
+Objectives
 
-- Represents stadium seating blocks using a Binary Tree.
-- Displays seating blocks in Zigzag Level Order Traversal.
-- Searches for a specific seating block.
-- Provides a simple menu-driven interface.
+- Understand the Binary Tree data structure.
+- Implement a Binary Tree using C++.
+- Display seating blocks in Zigzag (Spiral) Level Order Traversal.
+- Organize stadium entrances and seating blocks.
+- Understand tree traversal techniques.
 
 Technologies Used
 
 - Programming Language: C++
 - Data Structure: Binary Tree
-- Traversal: Zigzag (Spiral) Level Order Traversal
-- Queue: Used for traversal and searching
+- Traversal: Zigzag / Spiral Level Order Traversal
+- Compiler: Any standard C++ compiler
 
-Sample Seating Structure
+Features
 
-              Main Entrance
-              /            \
-          Block A          Block B
-          /    \           /    \
-         A1     A2         B1     B2
-        /  \                         /  \
-  A1-Upper A1-Lower             B2-Upper B2-Lower
+- Create a stadium seating structure.
+- Store stadium entrances and seating block names.
+- Display seating blocks level by level.
+- Print seating blocks in Zigzag (Spiral) order.
+- Navigate through different seating blocks.
+- Represent stadium sections using a Binary Tree.
 
-How to Compile and Run
+Binary Tree Concept
 
-1. Save the C++ code as "main.cpp".
-2. Open a terminal in the project folder.
-3. Compile the program:
+A Binary Tree is a data structure in which each node can have at most two children: a left child and a right child.
 
-g++ main.cpp -o stadium
+In this project, each node represents a stadium entrance or seating block.
 
-4. Run the program:
+Example:
 
-Windows:
+          Main Entrance
+          /           \
+      Block A        Block B
+      /    \         /    \
+  Block C Block D Block E Block F
 
-stadium.exe
+Zigzag / Spiral Level Order Traversal
 
-Linux/macOS:
+Zigzag traversal displays the nodes level by level, alternating the direction at each level.
 
-./stadium
+Example Output:
 
-Menu Options
+Stadium Seating Blocks:
 
-===== STADIUM NAVIGATION =====
-1. Display Seating Blocks
-2. Find a Seating Block
-3. Exit
-Enter your choice:
+Level 1: Main Entrance
+Level 2: Block B Block A
+Level 3: Block C Block D Block E Block F
 
-- Option 1: Displays seating blocks in zigzag order.
-- Option 2: Searches for a seating block such as A1 or Block A.
-- Option 3: Exits the application.
+Operations
 
-Sample Output
+1. Create Tree: Creates the stadium seating structure.
+2. Insert Nodes: Adds seating blocks to the tree.
+3. Zigzag Traversal: Displays seating blocks in alternating directions.
+4. Display: Shows the stadium seating arrangement.
 
-Stadium Seating - Zigzag Order:
-Main Entrance
-Block B -> Block A
-A1 -> A2 -> B1 -> B2
-B2-Lower -> B2-Upper -> A1-Lower -> A1-Upper
+Time Complexity
 
-Algorithm
-
-1. Create a binary tree representing stadium seating.
-2. Insert the root node into a queue.
-3. Process nodes level by level.
-4. Alternate the display direction at each level.
-5. Add the left and right child nodes to the queue.
-6. Continue until the queue is empty.
-7. Search for a block using level-order traversal.
-
-Complexity Analysis
-
-- Time Complexity of Zigzag Traversal: O(n)
-- Time Complexity of Block Search: O(n)
+- Tree Creation: O(n)
+- Zigzag Traversal: O(n)
 - Space Complexity: O(n)
 
-Here, n represents the total number of nodes in the binary tree.
+Here, n represents the total number of nodes in the Binary Tree.
 
-Future Enhancements
+Future Improvements
 
-- Add actual seat numbers and availability.
-- Create a graphical user interface.
-- Display a visual stadium map.
-- Add entrance-to-seat route guidance.
-- Connect the application to a database.
+- Add a search function for seating blocks.
+- Display seat numbers and row details.
+- Add a graphical user interface (GUI).
+- Include ticket booking functionality.
+- Show the shortest route to a selected seating block.
 
 Conclusion
 
-This project demonstrates how a binary tree and zigzag level order traversal can be used to organize and navigate stadium seating blocks. The application also provides a simple search function to help users locate a seating block.
+This project helps understand Binary Trees and Zigzag (Spiral) Level Order Traversal in C++. It demonstrates how tree data structures can be used to organize and display stadium seating blocks efficiently.
